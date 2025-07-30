@@ -1,3 +1,4 @@
+from fastapi import FastAPI, HTTPException
 import json
 from typing import List, Dict
 
@@ -29,4 +30,3 @@ def crear_reserva(nueva_reserva: Dict):
     with open("json_extended.json", "w", encoding="utf-8") as f:
         json.dump(reservas, f, ensure_ascii=False, indent=2)
     return nueva_reserva
-
