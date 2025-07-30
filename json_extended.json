@@ -1,0 +1,18 @@
+[
+  {
+    "id": 1,
+    "nombre": "Juan Pérez",
+    "origen": "Mendoza",
+    "destino": "Buenos Aires",
+    "fecha": "2025-08-01",
+    "mascota": false
+  },
+  {
+    "id": 2,
+    "nombre": "María López",
+    "origen": "Santiago",
+    "destino": "Mendoza",
+    "fecha": "2025-08-02",
+    "mascota": true
+  }
+]
