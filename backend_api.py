@@ -1,6 +1,3 @@
-@app.get("/")
-def root():
-    return {"mensaje": "API de reservas de Andesmar: consulta /docs para más detalles"}
 from fastapi import FastAPI, HTTPException
 import json
 from typing import List, Dict
