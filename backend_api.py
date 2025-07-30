@@ -6,7 +6,6 @@ app.add_middleware(
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
-)
 from fastapi import FastAPI, HTTPException
 import json
 from typing import List, Dict
